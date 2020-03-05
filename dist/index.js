@@ -1,5 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var auth0_context_1 = require("./context/auth0-context");
+exports.Auth0Context = auth0_context_1.default;
 var auth0_provider_1 = require("./context/auth0-provider");
 exports.Auth0Provider = auth0_provider_1.default;
 var use_auth_1 = require("./hooks/use-auth");
